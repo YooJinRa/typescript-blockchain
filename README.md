@@ -21,3 +21,27 @@
  * @returns boolean
  */
 ```
+
+---
+
+```
+// package.json
+...
+"scripts": {
+  "build": "tsc",
+  "dev": "nodemon --exec ts-node src/index.ts",
+  "start": "node build/index.js"
+},
+...
+```
+
+- npm i -D ts-node
+- npm i nodemon : 자동 커멘드 재실행
+- npm run dev
+
+---
+
+### static method
+
+- 클래스 안에서 사용하는 함수
+- 클래스 인스턴스가 없어도 부를 수 있는 함수
