@@ -1,5 +1,3 @@
-# 타입스크립트 이해
-
 - 2022.10.15-16
 
 ---
@@ -45,3 +43,9 @@
 
 - 클래스 안에서 사용하는 함수
 - 클래스 인스턴스가 없어도 부를 수 있는 함수
+
+---
+
+### 출처
+
+- [노마드코더 : Typescript로 블록체인 만들기](https://nomadcoders.co/typescript-for-beginners/lectures/3692)
